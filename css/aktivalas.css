@@ -1,0 +1,4121 @@
+/**********************/
+
+html {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    background: #121314;
+}
+body {
+    background: url(../images/page_top.jpg) no-repeat center top;
+    color: #adafb2;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 1px rgba(17, 16, 15, 0);
+}
+a {
+    transition: color .3s ease;
+    color: #adafb2;
+    font-weight: 700;
+    text-decoration: none;
+}
+a img {
+    border: 0
+}
+li {
+    line-height: 16px
+}
+#div_body_space {
+    height: 60px;
+}
+#menu_all {
+    height: 67px;
+    margin: 0 auto;
+    width: 918px;
+    position: relative
+}
+.menu_text {
+    float: left;
+    margin: 0;
+    text-indent: -999em;
+    overflow: hidden
+}
+.menu_text a[id=menu_1] {
+    background: url(../images/m_1fooldal.png);
+    width: 92px;
+    height: 49px;
+    display: block;
+    margin: 4px 0 0 9px
+}
+.menu_text a[id=menu_2] {
+    background: url(../images/m_2letoltes.png);
+    width: 89px;
+    height: 49px;
+    display: block;
+    margin: 4px 0 0 0
+}
+.menu_text a[id=menu_3] {
+    background: url(../images/m_3feltoltes.png);
+    width: 94px;
+    height: 49px;
+    display: block;
+    margin: 4px 0 0 0
+}
+.menu_text a[id=menu_4] {
+    background: url(../images/m_4keresek.png);
+    width: 88px;
+    height: 49px;
+    display: block;
+    margin: 4px 0 0 0
+}
+.menu_text a[id=menu_5] {
+    background: url(../images/m_11ajanlo.png);
+    width: 83px;
+    height: 49px;
+    display: block;
+    margin: 4px 0 0 0
+}
+.menu_text a[id=menu_6] {
+    background: url(../images/m_6forum.png);
+    width: 78px;
+    height: 49px;
+    display: block;
+    margin: 4px 0 0 0
+}
+.menu_text a[id=menu_7] {
+    background: url(../images/m_7wiki.png);
+    width: 68px;
+    height: 49px;
+    display: block;
+    margin: 4px 0 0 0
+}
+.menu_text a[id=menu_8] {
+    background: url(../images/m_8felhasznalok.png);
+    width: 119px;
+    height: 49px;
+    display: block;
+    margin: 4px 0 0 0
+}
+.menu_text a[id=menu_9] {
+    background: url(../images/m_9helpdesk.png);
+    width: 98px;
+    height: 49px;
+    display: block;
+    margin: 4px 0 0 0
+}
+.menu_text a[id=menu_10] {
+    position: absolute;
+    top: -221px;
+    right: 170px;
+    text-indent: 0;
+    text-transform: uppercase;
+    z-index: 999
+}
+.menu_text a[id=menu_11] {
+    background: url(../images/m_10kilepes.png);
+    width: 91px;
+    height: 49px;
+    display: block;
+    margin: 4px 0 0 0
+}
+.menu_text a[id=menu_1]:hover,
+.menu_text a[id=menu_2]:hover,
+.menu_text a[id=menu_3]:hover,
+.menu_text a[id=menu_4]:hover,
+.menu_text a[id=menu_5]:hover,
+.menu_text a[id=menu_6]:hover,
+.menu_text a[id=menu_7]:hover,
+.menu_text a[id=menu_8]:hover,
+.menu_text a[id=menu_9]:hover,
+.menu_text a[id=menu_11]:hover {
+    background-position: 0 -51px
+}
+.menu_center_staff .menu_text {
+    margin: 0
+}
+.topnews_alert {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 11px;
+    background-color: #1D5CA3;
+    color: #FFF;
+    float: left;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1px 6px 2px;
+    position: absolute;
+    margin: 23px 0 0 7px;
+}
+#infosav {
+    height: 31px;
+    width: 902px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#infosav_adatok {
+    float: left;
+    padding: 7px 0 0 7px;
+    width: 630px
+}
+#infosav_extra {
+    float: right;
+    padding: 2px 5px 0;
+}
+.infosav_l,
+.infosav_c,
+.infosav_r {
+    height: 31px;
+    float: left;
+}
+.infosav_l {
+    width: 3px
+}
+.infosav_c {
+    background-position: 0 -32px;
+    width: 896px
+}
+.infosav_r {
+    background-position: -4px 0;
+    width: 3px
+}
+.infocsik {
+    background: rgba(34, 35, 38, 0.59) !important;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 5px 0px;
+    text-align: center;
+    width: 250px;
+    position: absolute;
+    transform: translate(326px,-268px);
+}
+.i_e_vonal {
+    float: left;
+    height: 1px;
+    width: 5px
+}
+.i_e_link {
+    height: 17px;
+    width: 17px;
+    padding-top: 5px;
+}
+#i_e_log,
+#i_e_free,
+#i_e_baratok,
+#i_e_konyvjelzo,
+#i_e_beallitasok,
+#i_e_level,
+#i_e_meghivo {
+    background: url(../images/infosav_icons_1.png) no-repeat;
+    float: left;
+    height: 24px;
+    width: 20px;
+    opacity: .7;
+    transition: opacity .6s ease;
+}
+#i_e_log:hover,
+#i_e_free:hover,
+#i_e_baratok:hover,
+#i_e_konyvjelzo:hover,
+#i_e_beallitasok:hover,
+#i_e_level:hover,
+#i_e_meghivo:hover {
+    background: url(../images/infosav_icons_hover.png) no-repeat;
+    float: left;
+    height: 24px;
+    width: 20px;
+    opacity: 1;
+    transition: opacity .6s ease;
+}
+#i_e_log {
+    background-position: 1px 3px;
+    transition: 0.6s ease;
+}
+#i_e_free {
+    background-position: -17px 3px;
+    transition: 0.6s ease;
+}
+#i_e_baratok {
+    background-position: -37px 3px;
+    transition: 0.6s ease;
+}
+#i_e_konyvjelzo {
+    background-position: -59px 3px;
+    transition: 0.6s ease;
+}
+#i_e_beallitasok {
+    background-position: -84px 3px;
+    transition: 0.6s ease;
+}
+#i_e_level {
+    background-position: -108px 3px;
+    transition: 0.6s ease;
+}
+#i_e_log:hover {
+    background-position: 1px 3px;
+    transition: 0.6s ease;
+}
+#i_e_free:hover {
+    background-position: -17px 3px;
+    transition: 0.6s ease;
+}
+#i_e_baratok:hover {
+    background-position: -37px 3px;
+    transition: 0.6s ease;
+}
+#i_e_konyvjelzo:hover {
+    background-position: -59px 3px;
+    transition: 0.6s ease;
+}
+#i_e_beallitasok:hover {
+    background-position: -84px 3px;
+    transition: 0.6s ease;
+}
+#i_e_level:hover {
+    background-position: -108px 3px;
+    transition: 0.6s ease;
+}
+.i_e_pmcount {
+    -moz-border-radius: 2px;
+    border-radius: 500px;
+    background-color: #D84A6B;
+    color: #ffffff;
+    float: left;
+    font-size: 10px;
+    font-weight: 700;
+    position: absolute;
+    top: 23px;
+    right: 29px;
+    padding: 3px 6px 4px;
+    border: solid 4px;
+    border-color: #222326;
+    animation: animationFrames linear 2.4s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    -webkit-animation: animationFrames linear 2.4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: animationFrames linear 2.4s;
+    -moz-animation-iteration-count: infinite;
+    -moz-transform-origin: 50% 50%;
+    -o-animation: animationFrames linear 2.4s;
+    -o-animation-iteration-count: infinite;
+    -o-transform-origin: 50% 50%;
+    -ms-animation: animationFrames linear 2.4s;
+    -ms-animation-iteration-count: infinite;
+    -ms-transform-origin: 50% 50%;
+}
+@keyframes animationFrames {
+    0% {
+        opacity: 1;
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    17% {
+        opacity: 0.8;
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    33% {
+        opacity: 0.6;
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    49% {
+        opacity: 0.4;
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    66% {
+        opacity: 0.6;
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    83% {
+        opacity: 0.8;
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+@-moz-keyframes animationFrames {
+    0% {
+        opacity: 1;
+        -moz-transform: translate(0px, 0px) rotate(0deg);
+    }
+    17% {
+        opacity: 0.8;
+        -moz-transform: translate(0px, 0px) rotate(0deg);
+    }
+    33% {
+        opacity: 0.6;
+        -moz-transform: translate(0px, 0px) rotate(0deg);
+    }
+    49% {
+        opacity: 0.4;
+        -moz-transform: translate(0px, 0px) rotate(0deg);
+    }
+    66% {
+        opacity: 0.6;
+        -moz-transform: translate(0px, 0px) rotate(0deg);
+    }
+    83% {
+        opacity: 0.8;
+        -moz-transform: translate(0px, 0px) rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+@-webkit-keyframes animationFrames {
+    0% {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    17% {
+        opacity: 0.8;
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    33% {
+        opacity: 0.6;
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    49% {
+        opacity: 0.4;
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    66% {
+        opacity: 0.6;
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    83% {
+        opacity: 0.8;
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+@-o-keyframes animationFrames {
+    0% {
+        opacity: 1;
+        -o-transform: translate(0px, 0px) rotate(0deg);
+    }
+    17% {
+        opacity: 0.8;
+        -o-transform: translate(0px, 0px) rotate(0deg);
+    }
+    33% {
+        opacity: 0.6;
+        -o-transform: translate(0px, 0px) rotate(0deg);
+    }
+    49% {
+        opacity: 0.4;
+        -o-transform: translate(0px, 0px) rotate(0deg);
+    }
+    66% {
+        opacity: 0.6;
+        -o-transform: translate(0px, 0px) rotate(0deg);
+    }
+    83% {
+        opacity: 0.8;
+        -o-transform: translate(0px, 0px) rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        -o-transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+@-ms-keyframes animationFrames {
+    0% {
+        opacity: 1;
+        -ms-transform: translate(0px, 0px) rotate(0deg);
+    }
+    17% {
+        opacity: 0.8;
+        -ms-transform: translate(0px, 0px) rotate(0deg);
+    }
+    33% {
+        opacity: 0.6;
+        -ms-transform: translate(0px, 0px) rotate(0deg);
+    }
+    49% {
+        opacity: 0.4;
+        -ms-transform: translate(0px, 0px) rotate(0deg);
+    }
+    66% {
+        opacity: 0.6;
+        -ms-transform: translate(0px, 0px) rotate(0deg);
+    }
+    83% {
+        opacity: 0.8;
+        -ms-transform: translate(0px, 0px) rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        -ms-transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+#i_e_meghivo {
+    background-position: -132px 4px;
+    transition: 0.6s ease;
+}
+#i_e_meghivo:hover {
+    background-position: -132px 4px;
+    transition: 0.6s ease;
+}
+#footer_bg {
+    margin: 0 auto;
+    width: 100%;
+}
+#footer_left {
+    display: none
+}
+.footer_link {
+    height: 34px;
+    width: 75px
+}
+#footer_center {
+    background: url(../images/footer.png) no-repeat center top;
+    color: #84BD00;
+    line-height: 44px;
+    float: left;
+    font-size: 8pt;
+    height: 54px;
+    padding-top: 11px;
+    text-align: center;
+    width: 100%;
+}
+.hr_stuff {
+    background: #2E2E30;
+    height: 1px;
+    margin: 5px auto;
+    width: auto;
+}
+#hozzaszolasok .hr_stuff,
+#forum5 .hr_stuff {
+    margin: 15px auto
+}
+span.r_lev1 {
+    color: #DE6E00
+}
+span.r_lev2 {
+    color: #DE6E00
+}
+span.r_lev3 {
+    color: #DEA200
+}
+span.r_lev4 {
+    color: #DEBC00
+}
+span.r_lev5 {
+    color: #DEC100
+}
+span.r_lev6 {
+    color: #CCDE00
+}
+span.r_lev7 {
+    color: #e2d093
+}
+.bonus_up {
+    color: #bfff98
+}
+.bonus_down {
+    color: #ff6600
+}
+.baratok_alert {
+    padding: 5px 0;
+    text-align: center
+}
+.active_link {
+  background-color: #34363A;
+  border-radius: 3px;
+  color: #fff;
+  padding: 3px 5px;
+  color: #84BD00;
+  font-weight: 700;
+  text-decoration: none;
+}
+.left {
+    padding: 6px 0
+}
+#wiki_search,
+.keresesMezo,
+.beviteliMezo,
+.beviteliMezo2,
+.beviteliMezo3,
+.beviteliMezo_news,
+.beviteliMezo_news_comm,
+.valasztasMezo,
+.valasztasMezo2,
+#szoveg {
+    background: #DFDFDF;
+    border: 1px solid #222;
+    color: #1D1E21;
+    padding: 4px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.beviteliMezo {
+    width: 300px
+}
+.beviteliMezo2 {
+    height: 161px;
+    margin: 10px 0 0 15px;
+    width: 615px
+}
+.beviteliMezo3 {
+    height: 161px;
+    width: 510px
+}
+.beviteliMezo_news {
+    margin-left: 7px;
+    width: 490px
+}
+.beviteliMezo_news_comm {
+    width: 295px
+}
+.valasztasMezo,
+.valasztasMezo2 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    height: 26px;
+    margin: 0 !important;
+    text-align: left;
+    width: 150px
+}
+.clickable {
+    cursor: pointer
+}
+.g_mehet {
+    background: url(../images/g_mehet2.png);
+    transition: 0.4s ease;
+    height: 33px;
+    width: 85px;
+}
+.g_mehet:hover {
+    background: url(../images/g_mehet.png);
+    transition: 0.4s ease;
+    height: 33px;
+    width: 85px;
+}
+.g_elonezet {
+    background: url(../images/g_elonezet2.png);
+    transition: 0.4s ease;
+    height: 33px;
+    width: 100px;
+}
+.g_elonezet:hover {
+    background: url(../images/g_elonezet.png);
+    transition: 0.4s ease;
+    height: 33px;
+    width: 100px;
+}
+.comment {
+    color: #AAA;
+    font-weight: 400
+}
+.teljes_oldalas {
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+}
+[src$="thumbsup_off.png"] {
+    background: url(../images/thumbsup_off.png);
+    content: '';
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+[src$="thumbsup_on.png"] {
+    background: url(../images/thumbsup_on.png);
+    content: '';
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+[src$="thumbsdown_on.png"] {
+    background: url(../images/thumbsdown_on.png);
+    content: '';
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+[src$="thumbsdown_off.png"] {
+    background: url(../images/thumbsdown_off.png);
+    content: '';
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+#t_h_torrentek,
+#imdb_hasonlo {
+    background: #DFDFDF;
+    border: 1px solid #222;
+    color: #222;
+    padding: 4px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-shadow: none
+}
+#t_h_torrentek {
+    height: 100px;
+    overflow-y: scroll;
+    width: 500px
+}
+#imdb_hasonlo {
+    height: 70px;
+    overflow-y: scroll;
+    width: 100%
+}
+.set_style {
+    float: left;
+    margin: 5px 30px 5px 0;
+    text-align: center
+}
+.fobox_fej,
+.fobox_fej_alone,
+.lista_fej {
+    background: url(../images/box_bg.png);
+    font-weight: normal;
+    font-size: 12px;
+    height: 26px;
+    padding: 9px 0 0 15px;
+    width: 887px;
+}
+.fobox_fej_t,
+.fobox_fej_b,
+.fobox_tartalom_t,
+.fobox_lab,
+.lista_fej_t,
+.lista_lab,
+.fobox_lab_minimal {
+    background: url(../images/box_bg.png);
+    width: 902px;
+    height: 3px;
+}
+.fobox_fej_b,
+.fobox_lab,
+.lista_lab,
+.fobox_lab_minimal {
+    background-position: 0 -5px
+}
+#hirdetes .fobox_fej_t,
+#hirdetes .fobox_fej_b,
+#hirdetes .fobox_fej_minimal {
+    display: none
+}
+.fobox_tartalom_t {
+    margin-top: 0px;
+}
+.fobox_tartalom {
+    background: url(../images/box_bg.png);
+    width: 882px;
+    padding: 10px;
+}
+.fobox_tartalom a[href^="torrents.php?action"] img[title] {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.48);
+    border-radius: 4px;
+    border: 0;
+    transition: 0.2s;
+}
+.fobox_tartalom a[href^="torrents.php?action"] img[title]:hover {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 2px #2d75df;
+    transition: 0.2s;
+}
+.fobox_tartalom_minimal {
+    background: url(../images/fobox_top_bg.png);
+    width: 882px;
+    padding: 10px
+}
+#add_news_close {
+    left: 265px;
+    position: relative;
+    text-align: right;
+    top: -42px;
+    width: 610px;
+    font-size: 11px;
+    display: block !important
+}
+#add_news {
+    position: relative;
+    top: -19px;
+    margin-top: 15px
+}
+.userbox_tartalom_mini_text {
+    padding-left: 1em
+}
+.commentbox_all {
+    margin: 0 auto 13px;
+    width: 900px;
+    border: 1px solid rgba(66, 71, 86, 0);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.commentbox_fej {
+    background: url(../images/news_right_top.png);
+    font-size: 11px;
+    font-weight: 700;
+    height: 22px;
+    padding: 10px 0px 2px 16px;
+}
+#up_commentbox .hsz_iconok {
+    margin-left: 7px
+}
+.hsz_iconok {
+    margin: 0 auto;
+    width: 547px
+}
+.hsz_iconok_table {
+    border-collapse: collapse;
+    height: 34px;
+    margin-left: -6px;
+    width: 566px;
+    text-align: center;
+    background: #2E2F33;
+}
+span.pm_send_top_text {
+    padding-left: 260px;
+}
+#up_commentbox .hsz_textarea {
+    margin: 0
+}
+.hsz_textarea {
+    margin: 0 auto;
+    text-align: left;
+    width: 560px
+}
+#profil_right .hsz_textarea {
+    margin: 0;
+    width: 510px
+}
+#profil_right .textarea_fancy {
+    width: 508px
+}
+#profil_right .hsz_width5 {
+    width: 221px
+}
+#profil_right #add_news_close {
+    left: 18px
+}
+.textarea_fancy {
+    color: #000;
+    height: 180px;
+    margin: 0;
+    overflow-y: scroll;
+    padding-left: 2px;
+    width: 558px
+}
+.hsz_width1 {
+    width: 82px
+}
+.hsz_width3 {
+    width: 26px
+}
+.hsz_width5 {
+    width: 279px
+}
+.bb-quote {
+    background: #2e2f33;
+    border: 1px solid #43454C;
+    border-radius: 3px;
+    padding: 12px;
+}
+.bb_table_td {
+    border-bottom: 1px solid #333;
+    padding: 3px
+}
+.bb_table_td2 {
+    padding: 6px
+}
+.bb_link {
+    height: 26px;
+    width: 26px
+}
+.hsz_bb_vastag,
+.hsz_bb_dolt,
+.hsz_bb_alahuzott,
+.hsz_bb_meret,
+.hsz_bb_szin,
+.hsz_bb_imgw,
+.hsz_bb_spoiler,
+.hsz_bb_smilie,
+.hsz_bb_kep,
+.hsz_bb_link,
+.hsz_bb_felsorolas,
+.hsz_bb_idezet,
+.hsz_bb_kerdes {
+    float: left;
+    height: 26px;
+    width: 26px
+}
+.hsz_bb_vastag {
+    background-image: url(../images/01_vastag.png)
+}
+.hsz_bb_dolt {
+    background-image: url(../images/02_dolt.png);
+    margin-left: 1px
+}
+.hsz_bb_alahuzott {
+    background: url(../images/03_alahuzott.png);
+    margin-left: 1px
+}
+.hsz_bb_meret {
+    background-image: url(../images/04_betumeret.png)
+}
+#colors {
+    font-size: 8pt;
+    width: 90px
+}
+.hsz_bb_szin {
+    background-image: url(../images/05_betuszin.png);
+    margin-left: 4px
+}
+.hsz_bb_imgw {
+    background: url(../images/08_imgw.png);
+    margin-left: 4px
+}
+.hsz_bb_spoiler {
+    background: url(../images/10_spoiler.png);
+    margin-left: 2px
+}
+.hsz_bb_smilie {
+    background-image: url(../images/06_smile.png);
+    margin-left: 2px
+}
+.hsz_bb_kep {
+    background-image: url(../images/07_img.png);
+    margin-left: 1px
+}
+.hsz_bb_link {
+    background-image: url(../images/09_link.png);
+    margin-left: 11px
+}
+.hsz_bb_felsorolas {
+    background-image: url(../images/11_felsorolas.png);
+    margin-left: 11px
+}
+.hsz_bb_idezet {
+    background-image: url(../images/12_quote.png);
+    margin-left: 1px
+}
+.hsz_bb_kerdes {
+    background-image: url(../images/13_kerdes.png);
+    margin-left: 15px;
+}
+.listrow_odd {
+  background: #323438;
+}
+.listrow_self {
+  background: #3D485F;
+}
+.listrow_self td {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333
+}
+.listrow_table th {
+    background: url(../images/comment_bg.png);
+    text-align: center;
+    padding: 4px 0
+}
+.listrow_table td {
+    padding: 4px 0 4px 5px !important
+}
+.tiltott_live {
+    color: #B92423
+}
+#torr_live_close {
+    float: right;
+    padding-left: 10px
+}
+#torr_live {
+    z-index: 99;
+    background: url(../images/page_bg.gif);
+    border: 1px solid #444;
+    display: none;
+    margin-top: 3px;
+    position: absolute
+}
+#t_live_first {
+    background: url(../images/comment_bg.png)
+}
+#t_live_first td {
+    border-bottom: 1px solid #333
+}
+#t_live_line td {
+    height: 2px;
+    padding: 0 !important
+}
+.t_live_left {
+    background: url(../images/info_bg.png)
+}
+.back_counter {
+    padding-left: 7px
+}
+.open_news_comm .back_counter {
+    padding-left: 0
+}
+.newscomm_korabbi {
+    background: url(../images/korabbi_hsz.png);
+    border-radius: 0px;
+    transition: 0.2s;
+}
+.newscomm_korabbi:hover {
+    background: url(../images/korabbi_hsz_hover.png);
+    transition: 0.2s;
+}
+.newscomm_korabbi a {
+    transition: 0.2s;
+}
+.newscomm_korabbi a:hover {
+    transform: translateX(20px);
+}
+.newscomm_korabbi,
+#korabbi_div {
+    height: 30px;
+    margin-top: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+.add_news_h {
+    color: #adafb2;
+    cursor: pointer;
+    transition: color .3s ease;
+}
+.news_block_left {
+    float: left;
+    width: 630px
+}
+.news_block_right {
+    background: url(../images/new_rss_top.png) repeat-x top;
+    background-color: #1d1e21;
+    border: solid 1px;
+    border-color: #2e2f33;
+    padding-top: 6px;
+    float: left;
+    margin-left: 34px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 4px;
+    width: 200px;
+}
+.news_block_right span:first-child {
+    line-height: 20px;
+}
+.news_extra {
+    background: #282A2D;
+    float: left;
+    padding: 10px;
+}
+.news_extra .news_right2 {
+    float: left;
+    width: 610px
+}
+.news_left {
+    float: left;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    width: 80px
+}
+.news_right {
+    float: left;
+    padding-bottom: 5px;
+    width: 545px
+}
+.news_right2 {
+    float: left;
+    width: 630px
+}
+.news_right_txt {
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 5px;
+    overflow: hidden;
+    word-wrap: break-word
+}
+.news_sepa {
+    background: url(../images/sepa.png);
+    height: 2px;
+    margin: 10px 0;
+    width: 100%;
+}
+.right_rss_top {
+    font-weight: normal;
+    font-size: 12px;
+    height: 35px;
+    line-height: 23px;
+    text-align: center;
+}
+.right_rss_txt {
+    font-weight: 400;
+    margin-bottom: 5px;
+    text-align: justify
+}
+.right_rss_title {
+    margin-bottom: 3px
+}
+.news_own a {
+    color: #adafb2;
+}
+.news_own a:hover {
+    color: #84BD00;
+}
+.open_news_comm {
+    margin: 10px 0 0 95px
+}
+.close_news_comm {
+    margin-left: 95px
+}
+.newslist_comm {
+    background: url(../images/comment_bg.png);
+    margin: 0 0 10px 95px;
+    width: 520px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 0px
+}
+#newslist {
+    position: relative;
+    top: -25px
+}
+.news_sepa_comm {
+    height: 2px;
+    margin-bottom: 3px;
+    width: 100%;
+    background: #222326;
+}
+.news_comm {
+    padding: 0 5px
+}
+.news_left_comm {
+    float: left;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    width: 40px;
+}
+.news_right_comm {
+    float: left;
+    padding-bottom: 3px;
+    width: 460px
+}
+.news_right_top_comm {
+    padding-bottom: 3px;
+    padding-top: 2px;
+}
+.news_right_txt_comm {
+    font-weight: 400;
+    margin-top: 2px;
+    overflow: hidden;
+    word-wrap: break-word
+}
+#stat_table {
+    padding-top: 0px;
+    width: 100%
+}
+a.torrentnev:link,
+a.torrentnev:visited,
+a.torrentnev:active {
+    color: #fff;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 13px
+}
+a.torrentnev:hover {
+    color: #fff;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 13px;
+    text-decoration: underline
+}
+.modkomment_kozep {
+    background: #49252D;
+    padding-left: 7px;
+}
+.modkomment_szoveg {
+    color: #E5DFB7;
+    font-weight: 700;
+    line-height: 13px
+}
+.modkomment_lab {
+    background: #622D39;
+    color: #fff;
+    height: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    text-align: left;
+}
+a.torrent {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none
+}
+#keresoresz {
+    border: 0;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 5px 0;
+    width: 800px
+}
+.keresesMezo {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    height: 16px;
+    text-align: left;
+    width: 150px
+}
+#kategoriak {
+    display: block !important
+}
+#pager_top {
+    margin-top: 10px;
+    text-align: center
+}
+.categ_link {
+    height: 32px;
+    width: 51px
+}
+.lista_mini_all {
+    background: #2E3034;
+    margin: 0px auto 13px;
+}
+.box_alcimek_all {
+    background: url(../images/box_bg.png);
+    height: 26px;
+    text-align: center;
+}
+.box_alcimek_all_mini {
+    background: #353342;
+    height: 26px;
+    text-align: center;
+}
+.box_torrent,
+.box_torrent_keresek {
+    height: 41px;
+    border-top: 1px solid #2e2e30;
+    width: 898px;
+    margin: 0 auto;
+}
+.box_torrent_all,
+.box_keresek_all,
+.box_toplista_all,
+.box_forum_all {
+    background: url(../images/box_bg.png)
+}
+.lista_mini_error {
+    background: #3A2429;
+    padding: 7px 0;
+    text-align: center;
+}
+.box_alap,
+.box_alap_utolso {
+    float: left;
+    height: 22px;
+    padding: 3px 1px 1px
+}
+.alcim {
+    border-collapse: collapse;
+    float: left;
+    font-weight: 700
+}
+.alcim td {
+    padding: 0
+}
+.alcim_bal,
+.alcim_jobb {
+    float: left;
+    height: 20px;
+    width: 8px
+}
+.box_nev_ownfree {
+    width: 200px
+}
+.box_txt_ownfree {
+    margin: 10px 0 0 5px
+}
+.box_kerve {
+    width: 82px
+}
+#profil_right .box_kerve {
+    width: 80px
+}
+.box_feltolto {
+    width: 80px
+}
+.box_profil_nev {
+    width: 180px
+}
+.box_profil_nev2 {
+    width: 394px
+}
+.box_alap_img {
+    border-right: none;
+    float: left;
+    height: 32px;
+    padding: 4px;
+    position: absolute
+}
+.box_nagy2 {
+    background: url(../images/box_bg.png);
+    float: left;
+    height: 40px;
+    width: 839px;
+    padding-left: 59px;
+}
+.box_nagy {
+    float: left;
+    height: 40px;
+    width: 839px;
+    padding-left: 59px
+}
+.box_torrent_mini,
+.box_torrent_mini2 {
+    border-top: 3px solid #26272A;
+    height: 40px;
+}
+.box_nagy_mini {
+    float: left;
+    height: 40px;
+    width: 573px;
+    padding-left: 59px;
+    font-weight: normal
+}
+.box_nev2 {
+    float: left;
+    width: 450px
+}
+.box_nev_mini2 {
+    float: left;
+    margin-top: 10px
+}
+.box_nev_mini_ownfree {
+    float: left;
+    width: 214px
+}
+.box_feltoltve2 {
+    float: left;
+    line-height: 13px;
+    margin-top: 6px;
+    text-align: center;
+    width: 70px
+}
+.box_feltoltve2_short {
+    float: left;
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100px
+}
+.box_feltoltve_other_short {
+    float: left;
+    font-size: 10px;
+    margin-top: 5px;
+    text-align: center;
+    width: 100px
+}
+.box_meret2 {
+    float: left;
+    line-height: 12px;
+    margin-top: 14px;
+    text-align: center;
+    width: 90px
+}
+.box_feltolto2 {
+    float: left;
+    margin-top: 13px;
+    text-align: center;
+    width: 100px
+}
+.tabla_szoveg {
+    padding-left: 5px;
+    text-align: left
+}
+.torrent_txt {
+    float: left;
+    margin-top: 4px;
+    width: 350px
+}
+.torrent_txt a,
+.torrent_txt2 a {
+    color: #CFD1D5;
+    font-weight: normal;
+    font-size: 11px
+}
+.torrent_txt_mini {
+    float: left;
+    padding-top: 5px;
+    width: 183px
+}
+.torrent_txt_mini2 {
+    float: left;
+    margin-left: 5px;
+    width: 404px
+}
+.torrent_txt_also {
+    color: #8C8F94;
+    font-weight: 400;
+    margin-top: 2px
+}
+.torrent_txt2 {
+    float: left;
+    margin-top: 13px;
+    width: 350px;
+    overflow: hidden
+}
+.torrent_new,
+.torrent_hidden,
+.torrent_ok,
+.torrent_unchecked,
+.torrent_err,
+.torrent_konyvjelzo,
+.torrent_konyvjelzo2 {
+    background: url(../images/torrent_icons.png) no-repeat
+}
+.torrent_new,
+.torrent_gold,
+.torrent_hidden,
+.torrent_ok,
+.torrent_unchecked,
+.torrent_err {
+    float: right;
+    height: 16px;
+    margin: 12px 0 0 0;
+    width: 16px
+}
+.torrent_new {
+    background-position: -12px 3px
+}
+.torrent_new_link {
+    height: 16px;
+    width: 16px
+}
+.torrent_gold {
+    background: url(../images/ico_legal.png)
+}
+.torrent_hidden {
+    background-position: 5px 3px
+}
+.torrent_ok {
+    background-position: -45px 3px
+}
+.torrent_unchecked {
+    background-position: -60px 3px
+}
+.torrent_err {
+    background-position: -27px 3px
+}
+.torrent_konyvjelzo,
+.torrent_konyvjelzo2 {
+    float: left;
+    height: 10px;
+    width: 10px
+}
+.torrent_konyvjelzo {
+    background-position: -80px -2px;
+    margin: 17px 5px 0 0;
+}
+.torrent_konyvjelzo2 {
+    background-position: -80px -2px;
+    margin: 8px 5px 0 0;
+}
+.torrent_konyvjelzo img,
+.torrent_konyvjelzo2 img {
+    height: 10px;
+    width: 10px
+}
+.infobar {
+    float: left;
+    margin: 4px 0 0 -15px
+}
+.torrent_upload,
+.torrent_download {
+    background: url(../images/t_up-down.png) no-repeat;
+    float: left;
+    height: 10px;
+    margin: 16px 5px 0 0;
+    width: 10px
+}
+.torrent_download {
+    background-position: -16px 0
+}
+.torrent_lenyilo_lehetoseg {
+    background: #2A2B2F;
+    height: 30px;
+    border-top: 1px solid #333;
+    width: 888px;
+    margin: 0 auto;
+    padding-left: 14px;
+}
+.lehetosegek {
+    display: none
+}
+.torr_reszletek_btn {
+    height: 40px;
+    width: 27px
+}
+.download_separ {
+    background: #333;
+    float: left;
+    height: 30px;
+    margin: 0 10px;
+    width: 1px
+}
+.torrent_lenyilo_tartalom {
+    font-weight: 700;
+    padding: 10px;
+    width: 878px;
+    margin: 0 auto;
+    border-top: 1px solid #333
+}
+.torrent_lenyilo2 .torrent_lenyilo_tartalom {
+    font-weight: 700;
+    padding: 10px;
+    width: 878px;
+    margin: 0 auto;
+    border-top: 1px solid #333
+}
+.torrent_kep_ico {
+    font-weight: 700;
+    margin: 0 auto
+}
+.torrent_kep_ico2 {
+    background: url(../images/ico_attach.png);
+    height: 26px;
+    margin: 0 auto;
+    width: 32px;
+}
+.attached_link {
+    height: 26px;
+    width: 32px;
+}
+.torrentnev_container {
+    padding: 10px 0 20px
+}
+.torrent_reszletek_cim {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #84BD00;
+    background: #2E2F33;
+    color: #CBCDD0;
+    font-weight: normal;
+}
+.torrent_reszletek {
+    margin: 10px auto;
+    width: 620px
+}
+.dt {
+    border-bottom: 1px solid #2E2F33;
+    float: left;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 0 2px 2px;
+    width: 83px;
+}
+.dd {
+    border-bottom: 1px solid #2E2F33;
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: 85px;
+    padding: 3px 2px 2px 10px;
+}
+.dd sup {
+    position: absolute;
+    border-left: 1px solid #333;
+    margin-left: 6px;
+    padding-left: 4px;
+    text-transform: uppercase;
+    font-size: 10px
+}
+.dtfix {
+    height: 24px
+}
+.torrent_col1 {
+    float: left;
+    margin: 10px 20px 10px 0;
+    text-align: left;
+    width: 300px
+}
+.torrent_col2 {
+    clear: right;
+    float: left;
+    margin: 10px 0;
+    text-align: left;
+    width: 300px
+}
+.download>a {
+    text-indent: -9999px;
+    display: block;
+    width: 202px;
+    height: 43px;
+    transition: 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.download {
+    color: rgba(255, 255, 255, 0);
+    font-size: 11px;
+    margin: 20px auto;
+    padding-left: 0px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 202px;
+    height: 15px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    border: 0px solid #252525;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 0px;
+    background: url(../images/download2.png);
+    transition: 0.3s;
+    position: relative;
+}
+.download:hover {
+    background: url(../images/download.png);
+    width: 202px;
+    height: 43px;
+    padding: 0;
+    border: 0;
+    transition: 0.3s;
+}
+.torrent_leiras {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 0px;
+    border: 1px dotted rgba(59, 60, 63, 0);
+    background: #2E2F33;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: left;
+    width: 800px;
+    word-wrap: break-word;
+}
+.inforbar_img {
+    padding-right: 7px;
+    border-right: 1px solid #333437;
+}
+.inforbar_txt {
+    vertical-align: top
+}
+.infobar_title {
+  font-size: 15pt;
+  line-height: 25px;
+  margin: 0 0 10px 5px;
+  padding: 5px;
+  background: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.g_koszi {
+    background: url(../images/g_koszi2.png);
+    transition: 0.4s ease;
+    height: 33px;
+    width: 85px;
+}
+.g_koszi:hover {
+    background: url(../images/g_koszi.png);
+    transition: 0.4s ease;
+    height: 33px;
+    width: 85px;
+}
+.hozzaszolasok_pager {
+    padding: 10px 0;
+    text-align: center
+}
+.cheaters_no {
+    color: #00e74c
+}
+.cheaters_yes {
+    color: #FF0
+}
+.cheaters_upper {
+    color: #e6d83c
+}
+#cheaters td {
+    border-top: 1px solid #333
+}
+.baratok_block {
+    background: #2E2F33;
+    border: 1px solid #35363A;
+    float: left;
+    margin: 5px 10px;
+    padding: 5px;
+    width: 279px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 0px;
+}
+.baratok_block_jelolt {
+    background: url(../images/comment_bg.png);
+    border: 1px solid #333;
+    float: left;
+    margin: 5px 10px;
+    padding: 5px;
+    width: 279px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+div.baratok_img {
+    float: left;
+    height: 80px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 50px
+}
+.baratok_info {
+    font-weight: 700;
+    padding: 2px 0 5px;
+    text-align: center
+}
+.baratok_center {
+    float: left;
+    width: 189px;
+    padding-left: 10px;
+    height: 80px;
+    border-left: 1px solid #54662C;
+}
+.baratok_nev {
+    display: block;
+    margin: 2px 0 5px
+}
+.baratok_last {
+    display: block;
+    margin-bottom: 5px
+}
+.baratok_del,
+.baratok_add {
+    background: url(../images/profile_icons.png) no-repeat;
+    float: left;
+    height: 16px;
+    width: 16px;
+    margin: 2px 0 0 260px;
+    position: absolute;
+}
+.baratok_del {
+    background-position: -48px 2px;
+}
+.baratok_add {
+    background-position: -24px 2px;
+}
+.baratok_del:hover,
+.baratok_add:hover {
+    background: url(../images/profile_icons_hover.png) no-repeat;
+    float: left;
+    height: 16px;
+    width: 16px;
+    margin: 2px 0 0 260px;
+    position: absolute;
+}
+.baratok_del:hover {
+    background-position: -48px 2px;
+}
+.baratok_add:hover {
+    background-position: -24px 2px;
+}
+[src$="g_megse.png"] {
+    background: url(../images/g_megse2.png);
+    content: '';
+    width: 85px;
+    height: 33px;
+    display: inline-block;
+    transition: 0.4s ease;
+}
+[src$="g_megse.png"]:hover {
+    background: url(../images/g_megse.png);
+    content: '';
+    width: 85px;
+    height: 33px;
+    display: inline-block;
+    transition: 0.4s ease;
+}
+[src$="g_ok.png"] {
+    background: url(../images/g_mehet2.png);
+    content: '';
+    width: 85px;
+    height: 33px;
+    display: inline-block;
+    transition: 0.4s ease;
+}
+[src$="g_ok.png"]:hover {
+    background: url(../images/g_mehet.png);
+    content: '';
+    width: 85px;
+    height: 33px;
+    display: inline-block;
+    transition: 0.4s ease;
+}
+.baratok_del img,
+.baratok_add img {
+    height: 16px;
+    width: 16px
+}
+.beallitasok_menu {
+    line-height: 25px;
+    margin-left: 10px
+}
+.profile_torrent_lenyilo_middle {
+  font-weight: 700;
+  line-height: 15px;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  border-top: 1px solid #3E4044;
+  width: 632px;
+}
+.tablazat_th_td td {
+    padding: 5px;
+    text-align: center
+}
+.profile_history {
+    font-weight: 700
+}
+#profile_top {
+    height: 32px;
+    margin: 0 auto 10px;
+    text-align: center;
+    width: 902px
+}
+.profile_top_l,
+.profile_top_c,
+.profile_top_r {
+    background: url(../images/box_bg.png);
+    height: 32px;
+    float: left
+}
+.profile_top_l {
+    width: 4px
+}
+.profile_top_c {
+    width: 894px;
+    background-position: 0 -33px;
+    line-height: 31px
+}
+.profile_top_r {
+    width: 4px;
+    background-position: -5px 0
+}
+td.profil_doboz {
+    border-right: 1px solid #333;
+    border-top: 1px solid #333;
+    margin-top: 1px;
+    padding-left: 10px;
+    padding-top: 8px;
+    vertical-align: top;
+    width: 105px
+}
+td.profil_doboz_error {
+    background: url(../images/info_bg_red.png);
+    border-right: 1px solid #333;
+    border-top: 1px solid #333;
+    margin-top: 1px;
+    padding-left: 10px;
+    padding-top: 8px;
+    vertical-align: top;
+    width: 105px
+}
+td.profil_box_error {
+    background: url(../images/info_bg_red.png);
+    border-top: 1px solid #333;
+    margin-top: 1px;
+    padding-left: 10px
+}
+#profil_nev {
+    font-size: 22px
+}
+#profil_barattorlese,
+#profil_barathozzaad,
+#profil_pm {
+    background: url(../images/profile_icons.png) no-repeat;
+    float: right;
+    height: 20px;
+    width: 20px;
+    transition: 0.2s;
+}
+#profil_barattorlese {
+    background-position: -46px 5px;
+}
+#profil_barathozzaad {
+    background-position: -22px 5px;
+}
+#profil_pm {
+    background-position: 3px 5px;
+    margin-right: 5px;
+}
+#profil_barattorlese:hover,
+#profil_barathozzaad:hover,
+#profil_pm:hover {
+    background: url(../images/profile_icons_hover.png) no-repeat;
+    float: right;
+    height: 20px;
+    width: 20px;
+    transition: 0.2s;
+}
+#profil_pm:hover {
+    background-position: 3px 5px;
+    margin-right: 5px;
+}
+#profil_barathozzaad:hover {
+    background-position: -22px 5px;
+}
+#profil_barattorlese:hover {
+    background-position: -46px 5px;
+}
+.profil_txt {
+    height: 62px;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 1px
+}
+.profil_btn {
+    height: 62px;
+    vertical-align: top;
+    width: 100%
+}
+#profil_warn {
+    background: url(../images/warn.png) no-repeat;
+    float: left;
+    height: 21px;
+    margin: -25px 0 0 10px;
+    width: 29px
+}
+.barat_link {
+    height: 20px;
+    width: 20px
+}
+#profil_left {
+    background-color: #1d1e21;
+    border: solid 1px;
+    border-color: #2e2f33;
+    float: left;
+    margin-right: 10px;
+    width: 238px;
+}
+#profil_right {
+    float: left;
+    width: 632px
+}
+#profil_right .userbox_fej,
+.lista_mini_fej {
+    background: url(../images/profil_fej.png);
+    height: 29px;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: 0px solid #333;
+}
+#profil_right .lista_lab {
+    display: none
+}
+.lista_mini_fej {
+    background: url(../images/profil_fej.png)!important;
+}
+.profil_jobb_elso {
+    float: left;
+    line-height: 17px;
+    margin: 0 5px;
+    width: 70px
+}
+.profil_jobb_elso2 {
+    float: left;
+    line-height: 17px;
+    margin-left: 5px;
+    width: 125px
+}
+.profil_jobb_valaszto {
+    margin: 10px 0
+}
+.tblcontent th {
+    background: url(../images/info_bg.png);
+    border: 1px solid #333;
+    padding: 4px
+}
+.tblcontent td {
+    border: 1px solid #333;
+    padding: 4px
+}
+.tblcontent2 th {
+    background: url(../images/info_bg.png);
+    border: 1px solid #333;
+    padding: 2px
+}
+.tblcontent2 td {
+    border: 1px solid #333;
+    padding: 2px
+}
+.hsz_owncomments {
+    margin: 15px 0
+}
+.hsz_felso_owncomments {
+    background: url(../images/info_bg.png);
+    border-bottom: 1px solid #333;
+    height: 15px;
+    padding: 5px 0 0 5px
+}
+.hsz_felso_txt_owncomments {
+    float: left;
+    width: 360px
+}
+.hsz_felso_date_owncomments {
+    float: right;
+    margin-right: 7px;
+    text-align: right
+}
+.hsz_comment {
+    line-height: 1.5;
+    margin: 5px 0 0 10px;
+    padding-bottom: 10px
+}
+.hsz_bal {
+    float: left;
+    margin-top: 34px;
+    width: 160px
+}
+.hsz_jobb {
+    float: left;
+    width: 722px
+}
+.hsz_jobb_felso {
+    position: absolute;
+    width: 872px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 20px;
+    padding: 3px 5px 0;
+    background: url(../images/comment_bg.png)
+}
+.hsz_jobb_felso_txt {
+    float: left;
+    margin-top: 2px;
+    width: 440px
+}
+.hsz_jobb_felso_date {
+    float: right;
+    margin: 2px 0 0 0;
+    text-align: right
+}
+.hsz_jobb_felso_thumbs a {
+    margin: 0 0 0 5px
+}
+.hsz_voted {
+    background: url(../images/page_bg.gif);
+    border: 1px solid #333;
+    left: -100px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    width: 130px
+}
+.hsz_vote_minusz {
+    color: #D84A6B;
+}
+.hsz_vote_plusz {
+    color: #84BD00;
+}
+.hsz_jobb_comment {
+  line-height: 1.5;
+  margin: 34px 0 0 10px;
+  min-height: 100px;
+  padding: 0 0 10px 10px;
+  word-wrap: break-word;
+  border-left: 1px solid #333;
+  font-size: 11px;
+}
+.hsz_jobb_edit_last {
+    font-style: italic;
+    margin-right: 10px;
+    text-align: right
+}
+.hsz_jobb_edit {
+    background: url(../images/quote.png) no-repeat 0 12px;
+    font-style: italic;
+    margin-left: 15px;
+    padding: 10px 0 0 20px
+}
+#profil_left4 {
+    float: left;
+    margin: 0 20px 0 0;
+    width: 647px
+}
+#profil_right3 {
+  background-color: #1d1e21;
+  border: solid 1px;
+  border-color: #2e2f33;
+  float: left;
+  width: 210px;
+}
+.konyvjelzok_center {
+    padding: 10px;
+    text-align: center
+}
+.bookmark_top {
+    background-color: rgba(62, 62, 64, 0.46);
+    border-bottom: 1px solid rgba(51, 51, 51, 0);
+    font-size: 13px;
+    text-align: center;
+    margin-left: 0px;
+    padding: 9px 0px;
+    width: 100%;
+}
+.bookmark_border {
+    border-bottom: 1px solid #333
+}
+.bookmark_szerk {
+    background: url(../images/infosav_icons_1.png) no-repeat -85px 10px;
+    cursor: pointer;
+    float: right;
+    height: 30px;
+    margin-right: 15px;
+    width: 16px
+}
+.bookmark_1 {
+    background: url(../images/info_bg.png);
+    border: 1px solid #333;
+    height: 34px;
+    padding-left: 10px;
+    width: 354px
+}
+.bookmark_2 {
+    background: url(../images/comment_bg.png);
+    border: 1px solid #333;
+    height: 34px;
+    text-align: center;
+    width: 148px
+}
+.bookmark_lenyilo_middle {
+    font-weight: 700;
+    line-height: 15px
+}
+.bookmark_content {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 0;
+    text-align: center
+}
+.bookmark_text {
+    font-weight: 400;
+    padding: 0 20px 20px
+}
+.bookmark_buttons {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+    text-align: center
+}
+.invite_1 {
+    padding: 2px 0;
+    width: 150px
+}
+.log_bigtxt {
+    overflow: hidden;
+    word-wrap: break-word
+}
+#log_head td {
+    background: url(../images/comment_bg.png);
+    border-bottom: 1px solid #111 !important;
+    height: 20px;
+    text-align: center
+}
+#log td {
+    border-bottom: 1px solid #35383D;
+    padding: 5px;
+}
+.t_del {
+    background: #3F1E26;
+}
+.t_add {
+    background: url(../images/info_bg.png)
+}
+.nem_pm,
+.igen_pm,
+.megvalaszolt_pm,
+.notdel_pm,
+.rendszer_pm {
+    background: url(../images/mail_icons.png) no-repeat;
+    height: 20px;
+    width: 20px
+}
+.nem_pm {
+    background-position: 3px 2px
+}
+.igen_pm {
+    background-position: -17px 2px
+}
+.megvalaszolt_pm {
+    background-position: -37px 2px
+}
+.notdel_pm {
+    background-position: -57px 2px
+}
+.rendszer_pm {
+    background-position: -77px 2px
+}
+.pm_menu_table {
+    border: none;
+    padding: 5px 0
+}
+.pm_menu {
+    padding: 0 0 10px
+}
+.box_pm_all {
+    clear: both;
+    font-weight: 700
+}
+.box_pm_left {
+    float: left;
+    width: 160px
+}
+.box_pm_right {
+    border-left: 1px solid #2e2e30;
+    margin-left: 160px;
+    min-height: 400px;
+}
+.pm_lapozo_felul {
+    margin: 5px 0 20px;
+    text-align: center
+}
+.pm_lapozo_alul {
+    margin: 30px 0 0;
+    text-align: center
+}
+.pmlist {
+    height: 40px;
+    width: 728px
+}
+.pm_header_control {
+    background: #2e2f33;
+    height: 30px;
+    line-height: 30px;
+    margin: 15px 0 0 10px;
+    padding-left: 5px;
+    width: 700px;
+}
+.pm_header_control a,
+pm_header_control a:hover {
+    font-weight: 400;
+    padding: 0 10px
+}
+.pm_header_sepa {
+    background-color: #333;
+    height: 1px;
+    margin: 0 0 10px 10px;
+    width: 705px
+}
+.pmlist_one {
+    float: left;
+    height: 40px;
+    margin: 1px 0 0 1px;
+    padding: 1px;
+    text-align: center;
+    width: 80px
+}
+.pmlist_two {
+    float: left;
+    height: 40px;
+    margin: 1px 0 0 10px;
+    padding: 1px;
+    width: 130px
+}
+.pmlist_three {
+    float: left;
+    height: 40px;
+    margin: 1px 0 0 30px;
+    padding: 1px;
+    width: 450px
+}
+.no_pm {
+    font-weight: 400;
+    padding: 30px 0 0;
+    text-align: center;
+    width: 728px
+}
+.reply_textarea {
+    margin-left: 108px;
+    width: 575px
+}
+.reply_text {
+    float: left;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 5px;
+    text-align: right;
+    width: 80px
+}
+.reply_sepa {
+    height: 1px;
+    margin: 10px 0 40px 10px;
+    width: 705px
+}
+.pm_reply_sepa {
+    background-color: #333;
+    height: 1px;
+    margin: 10px 0 10px 10px;
+    width: 705px
+}
+.pm_korabbi {
+    text-align: center;
+    text-transform: uppercase;
+    background: #2e2f33;
+    height: 30px;
+    padding-left: 0px;
+    margin: 4px 0px 15px 10px;
+    width: 705px;
+    line-height: 0;
+    transition: ease .2s;
+}
+.pm_korabbi:hover {
+  text-align: center;
+  text-transform: uppercase;
+  background: #323438;
+  height: 30px;
+  padding-left: 0px;
+  margin: 4px 0px 15px 10px;
+  width: 705px;
+  line-height: 0;
+  transition: ease .2s;
+}
+.pm_korabbi a,
+pm_korabbi a:hover {
+  display: block;
+  font-weight: 400;
+  padding: 15px 0 15px 0px;
+  transition: ease .2s;
+}
+.pm_cim {
+    font-size: 16px;
+    margin: 0 0 20px 10px;
+    padding: 5px 0
+}
+.pm_jobb {
+    padding-bottom: 10px;
+    width: 700px
+}
+.generic_dialog {
+    height: 0;
+    left: 0;
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3100
+}
+.generic_dialog .generic_dialog_popup {
+    height: 0;
+    overflow: visible;
+    position: relative
+}
+table.pop_dialog_table {
+    border-collapse: collapse;
+    direction: ltr;
+    margin: auto;
+    table-layout: fixed;
+    width: 465px
+}
+td.pop_content {
+    background: url(../images/box_bg.png);
+    box-shadow: 0px 6px 14px 4px rgba(0, 0, 0, 0.38);
+    border: 1px solid #222326;
+    border-radius: 3px;
+    color: #949494;
+    direction: ltr;
+    display: block;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0;
+}
+.dialog_loading {
+    background: url(../images/ajax2.gif) no-repeat scroll 232px 5px;
+    line-height: 50px;
+    min-height: 50px;
+    padding-right: 40px
+}
+.pm_send_top {
+  background: url(../images/box_bg.png);
+  border-bottom: 1px solid #2E2E30;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 11px 0px;
+  width: 100%;
+}
+.pm_send_left {
+    text-align: left;
+    width: 70px
+}
+.pm_send_right {
+    text-align: left
+}
+.pm_send_bottom {
+    padding-top: 10px;
+    text-align: center
+}
+#baratok_tabla_rendezheto {
+    border-spacing: 0;
+    padding: 0;
+    width: 100%
+}
+tr.barat_bg2 {
+    background: url(../images/info_bg.png)
+}
+.wiki_ul {
+    margin: 0 0 0 32px;
+    padding: 0;
+}
+.wiki_ul li {
+    padding: 1px 0
+}
+.wiki_head {
+  font-size: 22px;
+  font-weight: lighter;
+  line-height: 27px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 3px;
+  border-radius: 0px;
+  background: #2E2F33;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+#wiki_left {
+    float: left;
+    margin: 5px 10px 0 0;
+    width: 662px
+}
+#wiki_right {
+    background-color: #1d1e21;
+    border: solid 1px;
+    border-color: #2e2f33;
+    float: left;
+    margin-top: 5px;
+    margin-left: -10px;
+    width: 218px;
+}
+.wiki_tartalom {
+    padding: 10px 20px 20px 15px
+}
+.wiki_box_search_table td {
+    border: 1px solid #333;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-top: 3px
+}
+.wiki_box_search_table .colhead {
+    background: url(../images/info_bg.png);
+    font-weight: 700
+}
+.wikibox_input_left {
+    margin-top: 1px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    text-align: right;
+    vertical-align: top;
+    width: 100px
+}
+.wikibox_input_right {
+    margin-top: 1px;
+    padding-left: 10px;
+    text-align: left;
+    vertical-align: top
+}
+.wiki_line_new {
+    color: lime;
+    font-size: 8pt
+}
+.wiki_line_deleted {
+    color: red;
+    font-size: 8pt
+}
+.wiki_line_moved {
+    color: blue;
+    font-size: 8pt
+}
+.hdlist {
+    background: url(../images/info_bg.png);
+    height: 30px;
+    margin: 5px 0;
+    width: auto;
+    border: 1px solid #303030
+}
+.hdlist_one {
+    float: left;
+    height: 30px;
+    padding-left: 10px;
+    width: 180px
+}
+.hdlist_three {
+    float: left;
+    height: 30px;
+    width: 350px
+}
+.hdlist_replies {
+    margin: 5px 0 5px 100px;
+    width: 782px
+}
+.hd_jobb {
+    padding-bottom: 10px;
+    width: 785px
+}
+.hd_korabbi {
+    background: url(../images/info_bg.png);
+    height: 30px;
+    margin: 5px 0 5px 10px
+}
+.nincs_talalat {
+  background: #49252D;
+  font-weight: 700;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  width: 898px;
+}
+.keresek_menu {
+    padding-bottom: 10px;
+    text-align: center
+}
+#keres_keresese {
+    margin: 6px auto
+}
+.box_nev_keres {
+    float: left;
+    width: 335px;
+    padding-top: 13px
+}
+.box_kerve_keres {
+    color: #fff;
+    float: left;
+    padding-top: 13px;
+    text-align: center;
+    width: 62px
+}
+.box_pont_keres {
+    color: #fff;
+    float: left;
+    padding-top: 13px;
+    text-align: center;
+    width: 60px
+}
+.box_teljesitve_keres {
+    color: #fff;
+    float: left;
+    padding-top: 13px;
+    text-align: center;
+    width: 82px
+}
+.box_ideje_keres {
+    color: #fff;
+    float: left;
+    padding-top: 6px;
+    text-align: center;
+    width: 96px
+}
+.keres_nev {
+    font-size: 14px;
+    padding: 10px 0 20px;
+    text-align: center;
+    width: 100%
+}
+.keres_rightside {
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: right
+}
+.users_textarea {
+    height: 100px;
+    width: 500px
+}
+.box_users_admin_email {
+    width: 190px
+}
+.box_nagy2_users {
+    height: 32px;
+    width: 898px
+}
+.box_nagy_users {
+    background: url(../images/info_bg.png);
+    height: 32px;
+    width: 898px
+}
+.box_nev_users {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    width: 195px
+}
+.box_rang {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    width: 130px
+}
+.box_regtime,
+.box_lastvisit {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px
+}
+.box_telepules {
+    float: left;
+    margin: 10px 0 0 0;
+    text-align: center;
+    width: 172px
+}
+.box_nev_admin {
+    float: left;
+    margin: 10px 0 0 0;
+    width: 140px;
+    text-align: center
+}
+.box_email_admin {
+    float: left;
+    margin: 10px 0 0 0;
+    overflow: hidden;
+    width: 200px;
+    word-wrap: inherit;
+    text-align: center
+}
+.box_add_admin {
+    float: left;
+    margin: 10px 0 0 0;
+    width: 100px;
+    text-align: center
+}
+.box_dna_admin {
+    float: left;
+    margin: 10px 0 0 0;
+    overflow: hidden;
+    width: 270px;
+    word-wrap: inherit;
+    text-align: center
+}
+.box_up_admin {
+    float: left;
+    margin: 10px 0 0 0;
+    width: 88px;
+    text-align: center
+}
+.box_down_admin {
+    float: left;
+    margin: 10px 0 0 0;
+    width: 88px;
+    text-align: center
+}
+.users_amount {
+    color: #FFF;
+    font-weight: 700
+}
+.toplista_felso {
+    margin: 5px 0;
+    text-align: center
+}
+.toplista_felso2 {
+    margin: 20px 0 5px;
+    text-align: center
+}
+.box_toplista_nev {
+    width: 170px
+}
+.box_toplista_reg {
+    width: 125px
+}
+.box_toplista_torrentnev {
+    width: 312px
+}
+.box_toplista_kapcs {
+    width: 50px
+}
+.box_toplista_feltoltve2 {
+    width: 158px
+}
+.box_toplista_atlagarany {
+    width: 133px
+}
+.box_toplista_letoltve2 {
+    width: 104px
+}
+.box_toplista1_hely {
+    float: left;
+    margin-top: 10px;
+    width: 50px
+}
+.box_toplista1_nev {
+    float: left;
+    margin-top: 10px;
+    width: 200px
+}
+.box_toplista1_reg {
+    float: left;
+    margin-top: 10px;
+    width: 162px
+}
+.box_toplista3_nev {
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: left;
+    width: 330px
+}
+.box_toplista3_kapcs {
+    float: left;
+    margin-top: 10px;
+    width: 65px
+}
+.box_toplista3_adatforg {
+    float: left;
+    margin-top: 10px;
+    width: 90px
+}
+.box_toplista3_feltoltve {
+    float: left;
+    margin-top: 10px;
+    width: 177px
+}
+.box_toplista5_nev {
+    float: left;
+    margin-top: 10px;
+    width: 125px
+}
+.forum_stuff {
+    height: 20px;
+    padding: 0 10px
+}
+.forum_stuff_mod {
+    position: absolute;
+    right: 150px;
+    top: -24px;
+    text-align: right;
+    color: #fff
+}
+.all_threads_read {
+    float: right;
+    font-size: 9px;
+    padding: 2px 15px 0 0
+}
+.forum_oldalnev {
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    width: 622px
+}
+.forum_descr {
+    margin-top: 5px
+}
+.forum_fobox_lab {
+    position: relative;
+    min-height: 3px;
+    height: auto !important;
+}
+.forum_oldalnev_also {
+    font-size: 10px;
+    margin-top: 8px
+}
+.forum_kedvencek {
+    float: left;
+    text-align: right;
+    width: 260px;
+    padding-top: 2px
+}
+.box_nagy2_forum_left {
+  background: #2E2F32;
+  float: left;
+  height: 40px;
+  width: 50px;
+}
+.box_nagy2_forum_right {
+  background: #2E2F32;
+  float: left;
+  height: 40px;
+  width: 848px;
+}
+.box_nagy_forum_left {
+    float: left;
+    height: 40px;
+    width: 50px
+}
+.box_nagy_forum_right {
+    float: left;
+    height: 40px;
+    width: 848px
+}
+.box_forum_jel_nonew {
+    background: url(../images/f_nonew.png) no-repeat 12px 11px;
+}
+.box_forum_jel_new {
+    background: url(../images/f_new.png) no-repeat 12px 11px;
+}
+.box_forum_jel_closed {
+    background: url(../images/f_closed.png) no-repeat 12px 4px;
+}
+.box_forum_jel_moved {
+    background: url(../images/f_moved.png) no-repeat 12px 7px
+}
+.box_forum_jel_moved,
+.box_forum_jel_closed,
+.box_forum_jel_new,
+.box_forum_jel_nonew {
+    float: left;
+    height: 40px;
+    width: 50px;
+}
+.jel_link {
+    height: 40px;
+    width: 100%
+}
+.box_forum_tema_txt {
+    float: left;
+    height: 40px;
+    text-align: left;
+    width: 400px;
+    padding-left: 10px
+}
+.box_forum_tema_txt_also {
+  color: #8D929C;
+  margin-top: 1px;
+  background: url(../images/bullet_forum.png) no-repeat 0 4px;
+  padding-left: 11px;
+}
+.forum_newtopic a,
+.box_forum_tema_txt2 {
+    height: 33px;
+    padding-top: 4px;
+    overflow: hidden;
+}
+.box_forum_tema_txt2 a {
+    color: #fff;
+    font-size: 10px
+}
+.box_forum_tema_txt2 a strong {
+    font-weight: normal;
+    font-size: 12px;
+}
+.box_forum_utolso_txt {
+    float: left;
+    margin: 0 0 0 15px;
+    text-align: left;
+    width: 262px;
+    padding-top: 5px;
+    height: 35px;
+    font-size: 11px
+}
+.forum_stat {
+    line-height: 13px;
+    text-align: justify
+}
+.forum_pager {
+    float: left;
+    font-weight: 700;
+    width: 400px
+}
+.forum_newtopic {
+    float: right;
+    font-weight: 700;
+    text-align: right;
+    width: 480px;
+    transition: color .5s ease;
+}
+.box_forumtopic_all_fej {
+    background: #2e2f33;
+    border-left: 0px solid rgba(105, 178, 153, 0);
+    border-right: 0px solid rgba(105, 178, 153, 0);
+    font-weight: 400;
+    font-size: 8pt;
+    height: 9px;
+    padding: 6px 0 10px;
+    width: 902px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: linear-gradient(to left, #219C6D 0%, #189baa 100%);
+}
+.forum_rightside {
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: right;
+    width: 150px
+}
+#progress_all {
+    height: 25px;
+    margin: 10px auto 0;
+    width: 440px
+}
+#progressbar_1 {
+    background: url(../images/up_progress_1.png) 0 50px;
+    float: left;
+    height: 25px;
+    width: 111px
+}
+#progressbar_1.active {
+    background: url(../images/up_progress_1.png) 0 25px
+}
+#progressbar_1.done {
+    background: url(../images/up_progress_1.png) 0 0
+}
+#progressbar_2 {
+    background: url(../images/up_progress_2.png) 0 50px;
+    float: left;
+    height: 25px;
+    width: 109px
+}
+#progressbar_2.active {
+    background: url(../images/up_progress_2.png) 0 25px
+}
+#progressbar_2.done {
+    background: url(../images/up_progress_2.png) 0 0
+}
+#progressbar_3 {
+    background: url(../images/up_progress_3.png) 0 50px;
+    float: left;
+    height: 25px;
+    width: 109px
+}
+#progressbar_3.active {
+    background: url(../images/up_progress_3.png) 0 25px
+}
+#progressbar_3.done {
+    background: url(../images/up_progress_3.png) 0 0
+}
+#progressbar_4 {
+    background: url(../images/up_progress_4.png) 0 50px;
+    float: left;
+    height: 25px;
+    width: 111px
+}
+#progressbar_4.active {
+    background: url(../images/up_progress_4.png) 0 25px
+}
+#progressbar_4.done {
+    background: url(../images/up_progress_4.png) 0 0
+}
+.feltoltes_lapoz {
+    height: 29px;
+    margin: 30px auto 0;
+    width: 193px
+}
+.upload_back {
+    background: url(../images/g_vissza.png);
+    cursor: pointer;
+    float: left;
+    height: 33px;
+    margin-right: 5px;
+    width: 85px;
+}
+.upload_backin {
+    background: url(../images/g_vissza_in.png);
+    float: left;
+    height: 33px;
+    margin-right: 5px;
+    width: 85px;
+}
+.upload_next {
+    background: url(../images/g_tovabb.png);
+    cursor: pointer;
+    float: left;
+    height: 33px;
+    width: 85px;
+}
+.upload_nextin {
+    background: url(../images/g_tovabb_in.png);
+    float: left;
+    height: 25px;
+    width: 64px
+}
+.feltoltes_doboz,
+.szerkesztes_doboz {
+    border-right: 1px solid #333;
+    border-top: 1px solid #333;
+    margin-top: 1px;
+    padding-left: 10px;
+    padding-top: 8px;
+    vertical-align: top
+}
+.imdb_tabla {
+    background: url(../images/info_bg.png);
+    margin-top: 10px
+}
+.recent-links {
+    clear: both;
+    text-align: center;
+    width: 830px
+}
+.recent-links h5 {
+    font-size: 11px;
+    margin: 8px
+}
+.recent-links ul {
+    margin: 0;
+    padding: 0
+}
+.recent-links li {
+    list-style-type: none;
+    margin: 4pt 0;
+    text-align: center
+}
+.recent-article {
+    float: left;
+    width: 300px
+}
+.recent-article2 {
+    float: right;
+    width: 260px
+}
+.recent-pic {
+    float: left;
+    padding-top: 5px;
+    width: 245px
+}
+.forUsers_it {
+    color: #fff;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 13px
+}
+.li_ipon {
+    line-height: 12px;
+    margin: 2pt 0
+}
+a:hover,
+a.menu_link:hover,
+a.bb-url:hover,
+.feltolto_szin {
+    color: #84bd00;
+}
+#main_all {
+    margin: 0 auto;
+    width: 902px
+}
+.fobox_all,
+.fobox_all_alone {
+    margin: 0 auto 20px;
+    width: 902px
+}
+.fobox_tartalom_alone {
+    background: url(../images/box_bg.png);
+    width: 882px;
+    padding: 10px;
+    text-align: center;
+}
+.commentbox_tartalom {
+    background: url(../images/box_bg.png);
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+}
+.userbox_all {
+    margin: 0 auto 10px
+}
+.userbox_all_mini {
+    margin: 0 auto 20px;
+    padding-top: 18px;
+    background: url(../images/rss_top.png) no-repeat top center
+}
+.userbox_fej,
+.userbox_fej2,
+.userbox_fej_mini,
+.userbox_fej_mini2 {
+    font-weight: 400;
+    height: 18px;
+    line-height: 7px;
+    text-align: center;
+    font-size: 12px
+}
+.userbox_tartalom,
+.userbox_tartalom2,
+.userbox_tartalom_mini,
+.userbox_tartalom_mini2 {
+    overflow: hidden;
+    word-wrap: break-word;
+    font-weight: 400;
+    padding: 5px
+}
+#history_reszlet {
+    width: 100%
+}
+#profil_right .hsz_iconok {
+    margin: 0;
+    width: 510px
+}
+.tablazat_th_td {
+    border-collapse: collapse;
+    width: 100%
+}
+.hsz_width2,
+div.baratok_img img {
+    width: 50px
+}
+.hsz_width4,
+.users_input_small {
+    width: 100px
+}
+.box_users_admin_add {
+    width: 70px
+}
+.box_users_szint {
+    width: 112px
+}
+#sizes,
+.wiki_line_unchanged {
+    font-size: 8pt
+}
+#torr_live_in table,
+.wiki_box_search_table {
+    border-collapse: collapse
+}
+#torr_live_in td,
+.inforbar_txt td {
+    padding: 4px
+}
+.t_live_right a,
+.add_news_h a,
+a.infolink:link,
+a.infolink:visited,
+a.infolink:active {
+    font-weight: 400;
+    transition: color .5s ease;
+}
+.newscomm_korabbi a,
+#korabbi_div a,
+.hd_korabbi a {
+    display: block;
+    font-weight: 400;
+    padding: 8px 0 9px 0px;
+    text-align: center;
+}
+.news_right_top,
+#profil_rang {
+    font-size: 11px
+}
+.news_right_top {
+  background-color: #2e2f33;
+  border-left: solid 2px;
+  border-color: #84BD00;
+  padding: 10px 13px 11px 16px;
+}
+#table_torrcat,
+.helpdesk_table,
+#progress_all.pgr_all_edit {
+    margin: 0 auto
+}
+#pager_bottom,
+.torrent_reszletek_konyvjelzo {
+    margin: 10px 0;
+    text-align: center
+}
+.lista_all,
+.box_forumtopic_all {
+    margin: 0 auto 20px;
+    width: 902px
+}
+.box_tipus_ownfree,
+.box_tipus,
+.box_profil_tipus {
+    width: 40px
+}
+.box_meret {
+    width: 65px
+}
+.box_profil_d,
+.box_profil_s,
+.box_profil_l {
+    width: 36px
+}
+.box_nev_mini,
+.siterank {
+    float: left
+}
+.bookmark_name {
+    float: left;
+    margin-top: 6px
+}
+.box_s2,
+.box_l2,
+.box_d2 {
+    float: left;
+    margin-top: 13px;
+    text-align: center;
+    width: 40px
+}
+#profil_right .box_d2,
+#profil_right .box_s2 {
+    width: 56px
+}
+#profil_right .box_l2 {
+    width: 55px
+}
+.box_profil_feltoltott2,
+.box_profil_felseb2,
+.box_profil_letoltott2,
+.box_profil_leseb2 {
+    float: left;
+    font-size: 10px;
+    padding-top: 12px;
+    text-align: center;
+    width: 75px
+}
+.box_profil_arany2 {
+    float: left;
+    font-size: 10px;
+    text-align: center;
+    width: 75px;
+    padding-top: 12px
+}
+.box_profil_d2,
+.box_profil_s2 {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    width: 55px
+}
+.box_profil_l2 {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    width: 54px
+}
+.log_bg {
+    background: url(../images/info_bg.png)
+}
+.user_focim,
+.log_bg {
+    background: url(../images/info_bg.png)
+}
+#history_reszlet td,
+.helpdesk_table td {
+    padding: 2px
+}
+td.profil_box,
+.feltoltes_box,
+.szerkesztes_box {
+    border-top: 1px solid #333;
+    margin-top: 1px;
+    padding-left: 10px
+}
+.profil_jobb_masodik,
+.profil_jobb_masodik2 {
+    line-height: 17px;
+    overflow: hidden;
+    word-wrap: break-word
+}
+.tblcontent,
+.tblcontent2 {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%
+}
+.bookmark_name_txt {
+    margin-top: 2px
+}
+.bookmark_top_text,
+.pm_send_top_text,
+.wiki_ul ul {
+    padding-left: 10px
+}
+.bookmark_close_text,
+.pm_close_text {
+    font-size: 14px;
+    line-height: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%
+}
+.pm_sepa,
+.hd_reply_sepa {
+    background-color: #2e2e30;
+    height: 1px;
+    margin: 10px 0 10px 10px;
+    width: 705px;
+}
+.pm_bal,
+.hd_bal {
+    float: left;
+    margin: 0 10px;
+    width: 88px
+}
+.pm_also,
+.hd_also {
+    font-weight: 400;
+    margin-left: 108px;
+    width: 600px
+}
+.pm_send_input {
+    width: 345px
+}
+.box_keres_nev {
+    width: 316px
+}
+#wiki_right a,
+#wiki_right a:hover,
+#wiki_left a,
+#wiki_left a:hover {
+    font-weight: 400;
+    text-decoration: underline
+}
+.wikibox_tartalom2,
+.wikibox_tartalom_mini2 {
+    font-weight: 400
+}
+.wiki_input_error,
+.box_error,
+.doboz_error {
+    background: #49252D;
+}
+.hdlist_two,
+.hdlist_four {
+    float: left;
+    height: 30px;
+    width: 150px
+}
+.box_keres_teljesitve {
+    width: 63px
+}
+.box_toplista_nev2 {
+    width: 100px
+}
+.box_users_utoljara {
+    width: 182px
+}
+.box_toplista_varosnev {
+    width: 220px
+}
+.box_toplista_felhasznalo {
+    width: 220px
+}
+.box_toplista_hely {
+    width: 40px
+}
+.box_toplista_d,
+.box_toplista_s,
+.box_toplista_l {
+    width: 41px
+}
+.box_toplista1_feltoltott,
+.box_toplista1_felseb,
+.box_toplista1_letoltott,
+.box_toplista1_leseb,
+.box_toplista1_arany {
+    float: left;
+    margin-top: 10px;
+    width: 96px
+}
+.box_toplista3_d,
+.box_toplista3_s,
+.box_toplista3_l {
+    float: left;
+    margin-top: 10px;
+    width: 60px
+}
+.box_forum_temak_txt,
+.box_forum_szoltak_txt,
+.box_forum_indito_txt {
+    float: left;
+    width: 80px;
+    height: 28px;
+    padding-top: 12px;
+    font-size: 12px
+}
+.box_forum_indito_txt {
+    font-size: 10px !important
+}
+a.bb-url,
+a.commentlink:link,
+a.commentlink:visited,
+a.commentlink:active,
+a.commentlink:hover {
+    text-decoration: underline
+}
+#menu_left,
+#menu_right,
+.menu_arrow,
+#footer_right,
+.panel_closed,
+.panel_open,
+.letoltve,
+.nfo,
+.t_details,
+.t_comments,
+.fajlok,
+.t_szerkeszt,
+.t_torol,
+#forum1 .fobox_fej,
+#forum1 .fobox_fej_t,
+#forum1 .fobox_fej_b,
+#profil_right .hsz_bb_imgw,
+#profil_right .hsz_bb_spoiler,
+#letoltes_hr.hr_stuff,
+.hsz_felso_ico_owncomments,
+.bookmark_lenyilo_top,
+.bookmark_lenyilo_bottom,
+.wikibox_fej2,
+.wikibox_fej_mini2,
+.users_box_sepa {
+    display: none
+}
+a.torrent:hover,
+a.infolink:hover {
+    color: #d7edff;
+    font-weight: 400;
+    text-decoration: none
+}
+.box_meret_ownfree,
+.box_users_admin_up,
+.box_toplista_adatforg {
+    width: 72px
+}
+.box_feltoltve {
+    width: 60px
+}
+.box_users_admin_down {
+    width: 74px
+}
+.box_forum_tema {
+    width: 400px
+}
+.box_nev {
+    width: 429px
+}
+.box_d_ownfree,
+.box_s_ownfree {
+    width: 37px
+}
+.box_l_ownfree {
+    width: 40px
+}
+.box_profil_leseb,
+.box_profil_arany,
+.box_profil_letoltott,
+.box_profil_felseb,
+.box_profil_feltoltott,
+.box_forum_temak,
+.box_forum_szoltak2 {
+    width: 57px
+}
+.fajlok_txt,
+.letoltve_txt,
+.nfo_txt,
+.t_details_txt,
+.t_comments_txt,
+.t_szerkeszt_txt,
+.t_torol_txt {
+    float: left;
+    margin: 8px 8px 0px 8px;
+}
+.t_mafab {
+    float: left;
+    height: 19px;
+    margin: 4px 4px 0 6px;
+    width: 59px
+}
+.tablazat_th_td th,
+table.sortable th {
+  background: #333742;
+  border-bottom: 1px solid #3D4354;
+  padding: 3px;
+  text-align: center;
+}
+#profile_top .active,
+.highlight,
+.add_news_h:hover,
+.add_news_h a:hover {
+    color: #ffffff;
+}
+.list_alert {
+    color: #D84A6B !important;
+    font-weight: 700 !important;
+}
+.premium {
+    color: #84bd00 !important;
+}
+.hsz_jobb_felso_thumbs,
+.news_own,
+#bookmark_nevszerk {
+    float: right
+}
+.box_keres_pont {
+    width: 42px
+}
+.box_keres_kerve {
+    width: 48px
+}
+.box_keres_feltolto {
+    width: 81px
+}
+.box_keres_kerte {
+    width: 75px
+}
+.box_feltolto_keres {
+    float: left;
+    padding-top: 13px;
+    text-align: center;
+    width: 100px
+}
+.box_kerte_keres {
+    float: left;
+    padding-top: 13px;
+    text-align: center;
+    width: 101px
+}
+#stat_first,
+.invite_2,
+.users_input {
+    width: 200px
+}
+.box_users_nev {
+    width: 180px
+}
+.box_users_admin_nev {
+    width: 120px
+}
+.box_users_reg {
+    width: 180px
+}
+.box_users_varos {
+    width: 155px
+}
+.box_users_admin_dna {
+    width: 260px
+}
+.box_forum_utolso {
+    width: 259px
+}
+.box_felhasznalok,
+.box_toplista1,
+.box_toplista2,
+.box_toplista3,
+.box_toplista4,
+.box_toplista5 {
+    height: 33px;
+    width: 898px;
+    margin: 0 auto;
+    border-top: 1px solid #2e2e30;
+}
+.box_forum {
+    height: 40px;
+    width: 898px;
+    margin: 0 auto
+}
+.box_toplista_all,
+.box_forum_all,
+#profil_avatar,
+.wiki_center {
+    text-align: center
+}
+.box_toplista_felseb {
+    width: 65px
+}
+.box_toplista_letoltve {
+    width: 90px
+}
+.box_toplista_leseb {
+    width: 65px
+}
+.box_toplista_arany {
+    width: 93px
+}
+.box_toplista_felhasznalok,
+.user_select,
+.box_toplista_letoltes,
+.box_toplista_forumhsz {
+    width: 132px
+}
+.box_toplista_atlagforum {
+    width: 134px
+}
+.box_toplista_feltoltes,
+.box_toplista_torrenthsz,
+.box_toplista_atlagtorrent {
+    width: 130px
+}
+.box_toplista_felseb2,
+.box_toplista_arany2,
+.box_toplista_feltoltve3,
+.box_toplista_szint,
+.box_toplista_leseb2 {
+    width: 101px
+}
+.box_toplista4_felhasznalok,
+.box_toplista4_feltoltes,
+.box_toplista4_letoltes,
+.box_toplista2_torrenthsz,
+.box_toplista2_forumhsz,
+.box_toplista2_atlagtorrent {
+    float: left;
+    margin-top: 10px;
+    width: 145px
+}
+.box_toplista4_atlagarany {
+    float: left;
+    margin-top: 10px;
+    width: 152px
+}
+.box_toplista2_atlagforum {
+    float: left;
+    margin-top: 10px;
+    width: 165px
+}
+.box_toplista5_szint,
+.box_toplista5_felseb,
+.box_toplista5_leseb,
+.box_toplista5_arany,
+.box_toplista5_feltoltve {
+    float: left;
+    margin-top: 10px;
+    width: 120px
+}
+.box_toplista5_letoltve {
+    float: left;
+    margin-top: 10px;
+    width: 122px
+}
+.box_d {
+    width: 30px
+}
+.box_s {
+    width: 16px
+}
+.box_l {
+    width: 26px
+}
+.box_forum_jel {
+    width: 28px
+}
+.box_forum_indito,
+.box_forum_szoltak {
+    width: 60px
+}
+.box_toplista_feltoltve {
+    width: 90px
+}
+.box_keres_ideje {
+    width: 80px
+}
+.box_toplista2_nev {
+    float: left;
+    margin-top: 10px;
+    width: 245px
+}
+.box_toplista4_nev {
+    float: left;
+    margin-top: 10px;
+    width: 253px
+}
+.bookmark_szerk:hover,
+#i_e_log:hover,
+#i_e_free:hover,
+#i_e_baratok:hover,
+#i_e_konyvjelzo:hover,
+#i_e_beallitasok:hover,
+#i_e_level:hover,
+#i_e_meghivo:hover,
+.torrent_konyvjelzo:hover,
+.torrent_konyvjelzo2:hover,
+.torrent_gold:hover,
+.infobar:hover,
+.baratok_del:hover,
+.baratok_add:hover,
+#profil_barattorlese:hover,
+#profil_barathozzaad:hover,
+#profil_pm:hover {
+    opacity: 1;
+}
+#filmek_resz,
+#sorozat_resz,
+#zene_resz,
+#xxx_resz,
+#jatek_resz,
+#prg_resz,
+#konyv_resz {
+    width: 820px;
+    margin: 0 auto;
+    border-top: 1px dashed #2E2E30;
+    padding: 4px 0;
+}
+#hasonlo_torrentek a,
+#imdb_hasonlo a {
+    color: #4A4A4C
+}
+#hasonlo_torrentek a:hover,
+#imdb_hasonlo a:hover {
+    color: #754c3d
+}
+.forum_newtopic a,
+.hsz_jobb_felso_date a {
+    color: #ADAFB2;
+    transition: color .5s ease;
+}
+.forum_newtopic a:hover,
+.hsz_jobb_felso_date a:hover {
+    color: #84bd00;
+    transition: color .5s ease;
+}
+.hdlist_replies .textarea_fancy {
+    background: #BBB5AB;
+    border: 1px solid #333;
+    padding: 4px
+}
+.description {
+  background: url(../images/ico_attach2.png);
+  width: 26px;
+  margin: 0px 7px 0px 0px;
+  height: 26px;
+}
+.last_post {
+    background: url(../images/last_post.png);
+    width: 10px;
+    height: 10px
+}
+.infobar_ico {
+    background: url(../images/infobar.gif);
+    width: 9px;
+    height: 9px
+}
+#infosav_adatok .list_alert {
+  padding: 0px 0px 0px;
+  font-family: Tahoma, sans-serif;
+  transition: color .5s ease;
+}
+#infosav_adatok .list_alert:hover {
+    color: #fff !important
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .box_forum_tema_txt2 {
+        padding-top: 6px;
+        height: 29px
+    }
+    .box_forum_tema_txt_also {
+        background-position: 0 3px;
+        margin-top: 2px
+    }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 10000),
+not screen and (-webkit-min-device-pixel-ratio: 0) {
+    .box_forum_tema_txt2 {
+        padding-top: 5px;
+        height: 29px
+    }
+    .box_forum_tema_txt_also {
+        background-position: 0 3px;
+        margin-top: 2px
+    }
+}
+.hnr_torrents {
+    border-top: 1px solid #333;
+    text-align: center
+}
+.hnr_tname {
+    float: left;
+    width: 362px;
+    text-align: left
+}
+.hnr_tstart {
+    float: left;
+    width: 102px
+}
+.hnr_tlastactive {
+    float: left;
+    width: 102px
+}
+.hnr_tseed {
+    float: left;
+    width: 52px
+}
+.hnr_tup {
+    float: left;
+    width: 78px
+}
+.hnr_tdown {
+    float: left;
+    width: 78px
+}
+.hnr_ttimespent {
+    float: left;
+    width: 66px
+}
+.hnr_tratio {
+    float: left;
+    width: 54px
+}
+.hnr_all {
+    background: url(../images/info_bg.png);
+    float: left;
+    width: 896px;
+    padding: 3px;
+}
+.hnr_all2 {
+    float: left;
+    width: 898px;
+    padding: 3px
+}
+.hnr_name {
+    width: 346px
+}
+.hnr_start {
+    width: 84px
+}
+.hnr_lastactive {
+    width: 84px
+}
+.hnr_seed {
+    width: 34px
+}
+.hnr_up {
+    width: 60px
+}
+.hnr_down {
+    width: 60px
+}
+.hnr_timespent {
+    width: 48px
+}
+.hnr_ratio {
+    width: 42px
+}
+.hnr_hl {
+    background: #35353A;
+    float: left;
+    width: 896px;
+    padding: 3px;
+}
+span.seed {
+    color: #56B541
+}
+span.leech {
+    color: #DE6E00
+}
+span.partial {
+    color: #e2d093
+}
+span.stopped {
+    color: #CA4966;
+}
+.ape-popup {
+    margin: 5px 0;
+    padding: 5px;
+    width: 211px;
+    overflow: hidden;
+    word-wrap: break-word;
+    background-color: rgba(34, 35, 38, 1);
+}
+.ape-close {
+    float: right;
+    color: rgb(119, 189, 0);
+    cursor: pointer;
+}
+.ad-container {
+    text-align: left;
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid darkred;
+    width: 211px;
+    overflow: hidden;
+    word-wrap: break-word;
+    background-color: #1C1817
+}
+.premium-nav {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: 0;
+    list-style: none;
+    padding: 0;
+    display: table;
+    line-height: 0;
+    content: '';
+    clear: both;
+}
+.premium-nav li {
+    margin-bottom: -1px;
+    float: left;
+    line-height: 20px;
+    list-style: none;
+    width: 50%;
+    font-size: 16px;
+}
+.premium-nav li>a {
+    display: block;
+    line-height: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 2px;
+    text-align: center;
+}
+.premium-nav li>a:hover {
+    background: #333;
+}
+.premium-active a {
+    display: block;
+    line-height: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 2px;
+    background: #222;
+    text-align: center;
+}
+.premium-active>a:hover {
+    background: #222!important;
+    cursor: default!important;
+}
+.premium-tab {
+    padding: 24px 0 24px;
+}
+.div-bgad {
+    background: url(../images/bg_f1.png) no-repeat fixed top;
+}
+#fej_fejlec {
+    height: 240px;
+    margin: 0 auto;
+    width: 353px;
+}
+#korabbi_div a {
+    color: rgba(255, 255, 255, 0);
+    display: block;
+    font-weight: 400;
+    text-indent: -9999px;
+    margin-left: -14px;
+    padding: 18px 0px 0px 10px;
+}
+#korabbi_div {
+    background: url(../images/news_post_korabbi.png);
+    transition: 0.3s ease;
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 94px;
+    margin-bottom: -1px;
+    padding-left: 16px;
+    padding-right: 3px;
+    padding-top: 1px;
+    width: 504px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 0px;
+}
+#korabbi_div:hover {
+    background: url(../images/news_post_korabbi_hover.png);
+    transition: 0.3s ease;
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 94px;
+    margin-bottom: -1px;
+    padding-left: 16px;
+    padding-right: 3px;
+    padding-top: 1px;
+    width: 504px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 0px;
+}
+td.pop_topleft, td.pop_topright {
+    width:0px;
+}
+.box_nagy:hover{
+  background: #303035;
+  transition: 0.1s ease;
+  border-right: 2px solid;
+  border-color: #84BD00;
+}
+
+.box_nagy2:hover{
+  background: #303035;
+  transition: 0.1s ease;
+  border-right: 2px solid;
+  border-color: #84BD00;
+}
+
+.box_nagy{
+  transition: 0.1s ease;
+}
+
+.box_nagy2{
+  transition: 0.1s ease;
+}
+.upload_nextin:not([onclick]) {
+    background:none;
+    height:0px;
+    width:0px;
+    float:none;
+}
+.upload_back[onclick="lapoz_szerk('4', '3');"] {
+    margin-left:54px;
+    margin-right:0px;
+}
+#feltoltes_oldal4 p .g_mehet {
+    transform: translate(100px,-54px);
+}
+
+/***************************/
+
+/* helyi felülírások az eredeti brutecore kinézet megtartásához */
+body { min-width: 980px; }
+.news_block_left_full {
+    float: left !important;
+    width: 880px !important;
+    margin: 0 !important;
+}
+.news_block_right_hidden {
+    display: none !important;
+}
+.news_toolbar_center {
+    text-align: center !important;
+    margin: 0 auto 12px auto !important;
+}
+.single_news_center {
+    width: 100% !important;
+}
+#add_news, .right_rss_top, .right_rss_txt, .news_block_right_b { display:none !important; }
+#infosav_adatok { width: 690px !important; }
+#infosav_adatok a { text-decoration: none !important; }
+
+/* finom igazítások */
+.news_toolbar_center {
+    text-align: left !important;
+    margin: -2px 0 4px 120px !important;
+    display: block !important;
+    width: auto !important;
+}
+.news_toolbar_center .add_news_h a {
+    text-decoration: none !important;
+}
+.news_sepa {
+    margin-top: -8px !important;
+}
+#footer_center {
+    color: #8a8a8a !important;
+    font-size: 11px !important;
+    text-align: center !important;
+    line-height: 30px !important;
+}
+#footer_left, #footer_right {
+    display: none !important;
+}
+#footer {
+    display: block !important;
+}
+.footer_brand, .footer_design, .footer_sep {
+    color: #8a8a8a !important;
+}
+
+/* kis, oldalhoz illő felugró ablak */
+.nc_modal_overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.38);
+    z-index: 9999;
+}
+.nc_modal {
+    width: 360px;
+    margin: 170px auto 0 auto;
+    background: #2a2a2a url('../images/box_bg.png') repeat;
+    border: 1px solid #4a4a4a;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+    color: #d7d7d7;
+    font: 12px Tahoma, Arial, sans-serif;
+}
+.nc_modal_title {
+    padding: 8px 12px;
+    color: #8fca56;
+    font-weight: bold;
+    border-bottom: 1px solid #3a3a3a;
+    background: rgba(0,0,0,0.18);
+}
+.nc_modal_text {
+    padding: 16px 12px 10px 12px;
+    line-height: 18px;
+}
+.nc_modal_actions {
+    padding: 0 12px 12px 12px;
+    text-align: right;
+}
+.nc_modal_btn {
+    display: inline-block;
+    min-width: 74px;
+    text-align: center;
+    padding: 5px 12px;
+    color: #d7d7d7 !important;
+    text-decoration: none !important;
+    border: 1px solid #4f4f4f;
+    background: #202020;
+}
+.nc_modal_btn:hover {
+    color: #8fca56 !important;
+    border-color: #6b6b6b;
+}
+
+/* =========================================================
+   MOBILOS KIEGÉSZÍTÉS – csak telefonra
+   - A hírfolyam menüsor jobbra/balra állítható
+   - Nincs vízszintes oldalmozgatás telefonon
+   PC nézetet nem módosít.
+   ========================================================= */
+@media screen and (max-width: 768px) {
+    :root {
+        /* Itt tudod állítani telefonon a felső hírfolyam menüsor helyét.
+           Balra: negatív érték, pl. -12px
+           Jobbra: pozitív érték, pl. 12px */
+        --mobil-hirfolyam-x: 0px;
+    }
+
+    html,
+    body {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    body {
+        min-width: 0 !important;
+    }
+
+    #tartalom,
+    #main,
+    #main_all,
+    #content,
+    #menu_all,
+    #infosav,
+    .fobox_fej_t,
+    .fobox_fej,
+    .fobox_fej_b,
+    .fobox_tartalom_t,
+    .fobox_tartalom,
+    .fobox_lab,
+    .news_block_left_full,
+    .single_news_center,
+    #newslist {
+        max-width: 100vw !important;
+        box-sizing: border-box !important;
+        overflow-x: hidden !important;
+    }
+
+    #add_news_close,
+    #add_news_close.news_toolbar_center,
+    .news_toolbar_center {
+        white-space: nowrap !important;
+        transform: translateX(var(--mobil-hirfolyam-x)) !important;
+        overflow: visible !important;
+    }
+}
+
